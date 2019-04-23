@@ -1,0 +1,30 @@
+{
+  "name": "final",
+  "version": "1.0.0",
+  "description": "Package for Nathon's Final",
+  "main": "smithgames.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uacs337spring2019/final-project-nathonbreakout.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "js"
+  ],
+  "author": "Nathon Smith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uacs337spring2019/final-project-nathonbreakout/issues"
+  },
+  "homepage": "https://github.com/uacs337spring2019/final-project-nathonbreakout#readme"
+}
