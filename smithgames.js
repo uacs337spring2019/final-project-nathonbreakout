@@ -227,7 +227,7 @@
 		let password = document.getElementById("password").value;
 		let newuser = document.getElementById("newuser").checked;
 		
-		let url = "http://localhost:3000";
+		let url = "http://nathonbreakout.herokuapp.com:process.env.PORT";
 
 		if (newuser){
 
@@ -311,7 +311,7 @@
 
 		};
 
-		let url = "http://localhost:3000";
+		let url = "http://nathonbreakout.herokuapp.com:process.env.PORT";
 		fetch(url, fetchOptions)
 			.then(checkStatus)
 			.then(function(responseText) {
