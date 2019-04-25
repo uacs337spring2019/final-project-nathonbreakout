@@ -1,7 +1,7 @@
 {
 "name": "Breakout Project",
 "description": "337 final brakout project",
-"repository": "https://github.com/uacs337spring2019/final-project-nathonbreakout",
+"repository": "https://github.com/uacs337spring2019/final-project-nathonbreakout.git",
 "logo": "http://www.clker.com/cliparts/3/m/v/Y/E/V/small-red-apple-hi.png",
 "keywords": ["node", "express", "static"]
 }
