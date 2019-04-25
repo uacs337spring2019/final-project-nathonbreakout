@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/uacs337spring2019/final-project-nathonbreakout.git"
+    "url": "git+https://github.com/uacs337spring2019/final-project-nathonbreakout.git"
   },
   "author": "Nathon Smith",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/uacs337spring2019/final-project-nathonbreakout.git/issues"
   },
-  "homepage": "https://github.com/uacs337spring2019/final-project-nathonbreakout/index.js",
+  "homepage": "https://github.com/uacs337spring2019/final-project-nathonbreakout",
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
@@ -24,7 +24,9 @@
     "node": "^11.13.0",
     "ejs": "^2.5.6"
   },
+  "devDependencies": {},
   "engines": {
-    "node": "10.15.3"
+    "node": "10.15.3",
+    "npm": "6.4.1"
   }
 }
