@@ -1,0 +1,125 @@
+<!--
+Nathon Smith
+CSc 337
+This is the HTML code for my final 337 Project. It contains several
+divs, buttons, inputs, etc all of which create the objects that
+will be found on my web page. The website is a game site that has
+one game. There is a leaderboard that tracks who has the best score.
+-->
+
+<!DOCTYPE html>
+
+
+<html>
+
+	<head>
+
+		<title>Smith's Games</title>
+		<link href="smithgames.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="smithgames.js"></script>
+
+
+	</head>
+
+
+	<body>
+
+
+
+		<div id="top">
+
+			<h1 id="pagetitle">Smith's Games</h1>
+
+		</div>
+
+		<!--
+			The document is spearated into a top div, main div, and bottom div.
+			The main div has a left and a right which both have their own sections.
+		-->
+
+		<div id="main">
+
+			<div id="left">
+
+				<div id="lefttop">
+
+					<h2 class="subtitle">Login</h2>
+
+					<div id="inputs">
+
+						New User? <br>(check to make new account) 
+						<p id="retry"></p>
+						<input type="checkbox" id="newuser">
+
+						Username: <input id="username" type="text" name="username">
+						Password: <input id="password" type="Password" name="password">
+						<br>
+						<button type="button" id="submit">Submit</button>
+
+
+					</div>
+
+				</div>
+
+				<div id="leftbot">
+
+					<h2 class="subtitle" id="leftboards">Leaderboards</h2>
+
+					<div id="righttop" class="leaderboard">
+
+						<h3>Breakout Leaderboard:</h3>
+
+						<p id="leaderscores"></p>
+
+						<button id="refresh">Refresh Board</button>
+
+					</div>
+
+				</div>
+
+			</div>
+
+
+			<div id="right">
+
+				<h2 class="subtitle">Games</h2>
+
+				<div id="topgame" class="gamedescription">
+					<h3>Breakout</h3>
+
+					<img src="breakimg.png" alt="break">
+
+					<p>Breakout is a game where the user bounces a ball and tries to break all cubes!</p>
+
+
+
+
+
+				</div>
+
+				<div id="gamebuttons">
+
+						<button id="startgame">Start Game</button>
+
+						<button id="stopgame">Stop Game</button>
+
+				</div>
+
+			</div>
+
+
+		</div>
+
+		<div id="links">
+
+			<a href="https://validator.w3.org/check/referer"><img class="image" src="http://allisonobourn.com/images/w3c-html-blue.png" alt="html" /></a>
+			<a href="http://jigsaw.w3.org/css-validator/check/referer"><img class="image" src="http://allisonobourn.com/images/w3c-css-blue.png" alt="css" /></a>
+			<a href="https://webster.cs.washington.edu/jslint/?referer"><img class="image" src="http://allisonobourn.com/images/w3c-js-blue.png" alt="js" /></a>
+
+
+		</div>
+
+
+	</body>
+
+</html>
