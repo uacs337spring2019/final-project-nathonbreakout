@@ -196,7 +196,7 @@ the code.
 	the leaderboard.
 	*/
 	function updateBoard(){
-		let url = "https://nathon-breakout.herokuapp.com/mainpage.html?mode=board";
+		let url = "https://nathon-breakout.herokuapp.com/index.js?mode=board";
 		fetch(url)
 				.then(checkStatus)
 				.then(function(responseText){
