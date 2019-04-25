@@ -200,6 +200,7 @@ the code.
 		fetch(url)
 				.then(checkStatus)
 				.then(function(responseText){
+						console.log(responseText);
 						let json = JSON.parse(responseText);
 						let scorelist = json["allscores"]; // list of all scores
 						scorelist.sort(sortNumber); // sorts the list
