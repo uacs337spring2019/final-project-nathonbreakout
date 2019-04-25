@@ -95,7 +95,7 @@ app.post('/', jsonParser, function (req, res) {
 			});	
 
 	} else if (what == "update"){ // This is if the game scores are being updated.
-		let file = fs.readFileSync("Users.txt", "utf8");
+		let file = fs.readFileSync("users.txt", "utf8");
 		let lines = file.split("\n");
 		lines.shift();
 		let content = "";
