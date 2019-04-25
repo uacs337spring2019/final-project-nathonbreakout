@@ -196,7 +196,7 @@ the code.
 	the leaderboard.
 	*/
 	function updateBoard(){
-		let url = "http://localhost:3000/?mode=board";
+		let url = "https://nathon-breakout.herokuapp.com/?mode=board";
 		fetch(url)
 				.then(checkStatus)
 				.then(function(responseText){
@@ -231,7 +231,7 @@ the code.
 
 		};
 
-		let url = "http://localhost:3000";
+		let url = "https://nathon-breakout.herokuapp.com/";
 		fetch(url, fetchOptions)
 			.then(checkStatus)
 			.then(function(responseText) {
@@ -456,7 +456,7 @@ the code.
 		
 
 		if (newuser){ // if user making a new account
-			let url = "http://localhost:3000/?mode=oneuser";
+			let url = "https://nathon-breakout.herokuapp.com/?mode=oneuser";
 			fetch(url)
 					.then(checkStatus)
 					.then(function(responseText){
@@ -481,7 +481,7 @@ the code.
 					});
 
 		} else{ // this path taken if user exists and is logging in
-			let url = "http://localhost:3000/?mode=oneuser";
+			let url = "https://nathon-breakout.herokuapp.com/?mode=oneuser";
 			fetch(url)
 					.then(checkStatus)
 					.then(function(responseText){
@@ -552,7 +552,7 @@ the code.
 
 		};
 
-		let url = "http://localhost:3000";
+		let url = "https://nathon-breakout.herokuapp.com/";
 		fetch(url, fetchOptions)
 			.then(checkStatus)
 			.then(function(responseText) {
