@@ -150,7 +150,7 @@ the code.
 		let gameTitle = document.createElement("h3");
 		gameTitle.innerHTML = "Breakout";
 		let gameImg = document.createElement("img");
-		gameImg.src = "breakimg.png";
+		gameImg.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT054y4d7kqbe3txi8_-beKdcXWjhvvhxim067vmnpQ-f6V7nLS";
 		gameImg.alt = "break";
 		let description = document.createElement("p");
 		description.innerHTML = "Breakout is a game where the user breaks cubes with a ball!";
