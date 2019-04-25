@@ -21,7 +21,8 @@
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "fs": "^0.0.1-security",
-    "node": "^11.13.0"
+    "node": "^11.13.0",
+    "ejs": "^2.5.6"
   },
   "engines": {
     "node": "10.15.3"
