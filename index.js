@@ -60,7 +60,7 @@ app.get('/', function (req, res) {
 		res.send(JSON.stringify(json));
 	} else { // requesting all scores from the server
 		let scores = [];
-		for (let i = 0; i < lines.length; i++){
+		for (let i = 0; i < lines.length-1; i++){
 			let line = lines[i].split("--");
 			scores.push(line[2]);
 		}
