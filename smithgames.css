@@ -1,3 +1,12 @@
+/***
+Nathon Smith
+CSc 337
+This is the CSS code for my final web design project. The CSS changes
+the layout of the page by making several divs display as flex, and altering
+the color and border of the contents of the page.
+**/
+
+
 body{
 	background-color: #542c2c;
 	display: flex;
@@ -80,4 +89,8 @@ input{
 
 #leftboards{
 	margin-bottom: 10px;
+}
+
+canvas{
+	border: 3px solid black;
 }
